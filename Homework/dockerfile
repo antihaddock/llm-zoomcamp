@@ -1,0 +1,14 @@
+# Use the ollama/ollama base image
+FROM ollama/ollama
+
+# Set the working directory
+WORKDIR /root/.ollama
+
+# Copy the local model weights into the Docker image
+COPY ./ollama_files /root/.ollama
+
+# Expose the required port
+EXPOSE 11434
+
+# Default command to run when starting the container
+CMD ["ollama"]
