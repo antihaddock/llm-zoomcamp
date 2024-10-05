@@ -121,9 +121,10 @@ This section demonstrates how to schedule and trigger daily runs for your data p
 
 ## Homework
 
-TBA
+See [here](../cohorts/2024/05-orchestration/homework.md).
 
 # Notes
 
 * First link goes here
+* [Notes by Abiodun Mage RAG error fixes](https://github.com/AOGbadamosi2018/llm-zoomcamp/blob/main/06%20-%20orchestration/mage_rag_notes.md).
 * Did you take notes? Add them above this line (Send a PR with *links* to your notes)
